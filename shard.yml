@@ -1,0 +1,9 @@
+name: kagi
+version: 0.1.0
+
+authors:
+  - Margret Riegert <margret@eowyn.net>
+
+crystal: 1.9.2
+
+license: MIT
