@@ -26,7 +26,6 @@ module Kagi::Object
     # (If available) HTML snippet from website
     getter snippet : String?
 
-    # @[JSON::Field(key: "published", converter: Time::EpochConverter)]
     # (If available) When the result was publshed
     getter published : Time?
 
@@ -51,11 +50,9 @@ module Kagi::Object
     # The path of the proxied image, `/proxy/filename.jpg?c=HASH`
     getter proxy_url : String
 
-    # @[JSON::Field(key: "height", converter: Int32)]
     # Height of the image in pixels
     getter height : String
 
-    # @[JSON::Field(key: "width", converter: Int32)]
     # Width of the image in pixels
     getter width : String
 
