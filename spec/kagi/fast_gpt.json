@@ -1,0 +1,23 @@
+{
+    "meta": {
+        "id": "120145af-f057-466d-9e6d-7829ac902adc",
+        "node": "us-east",
+        "ms": 7943
+    },
+    "data": {
+        "output": "Python 3.11 was released in 2021 and introduced several new features compared to previous versions:",
+        "tokens": 757,
+        "references": [
+            {
+                "title": "What's New In Python 3.11 — Python 3.11.3 documentation",
+                "snippet": "...",
+                "url": "https://docs.python.org/3/whatsnew/3.11.html"
+            },
+            {
+                "title": "Introducing the New Features in Python 3.11 -",
+                "snippet": "...",
+                "url": "https://earthly.dev/blog/python-3.11-new-features/"
+            }
+        ]
+    }
+}

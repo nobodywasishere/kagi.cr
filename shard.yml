@@ -1,6 +1,16 @@
 name: kagi
 version: 0.1.0
 
+
+development_dependencies:
+  webmock:
+    github: manastech/webmock.cr
+    branch: master
+
+targets:
+  kagi:
+    main: src/kagi/cli.cr
+
 authors:
   - Margret Riegert <margret@eowyn.net>
 
