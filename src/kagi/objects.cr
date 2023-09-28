@@ -91,7 +91,7 @@ module Kagi::Object
   class Answer
     include JSON::Serializable
 
-    # HTML formatted
+    # Markdown formatted
     getter output : String
     getter references : Array(Reference)
     getter tokens : Int32

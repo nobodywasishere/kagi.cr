@@ -10,7 +10,7 @@ describe Kagi::Search do
       body = File.read("#{__DIR__}/search.json")
 
       params = URI::Params.encode({"q" => "steve jobs", "limit" => "10"})
-      WebMock.stub(:get, "https://kagi.com/api/v0/search?q=steve+jobs&limit=10")
+      WebMock.stub(:get, "https://kagi.com/api/v0/search?#{params}")
         .to_return(body: body, status: 200)
 
       results = Kagi::Search.query("steve jobs", limit: 10)

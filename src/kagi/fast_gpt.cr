@@ -7,7 +7,7 @@ module Kagi::FastGPT
   Log = Kagi::Log.for(self)
 
   #
-  # Sends a query to FastGPT and returns am `Kagi::Object::Answer`, HTML formatted
+  # Sends a query to FastGPT and returns am `Kagi::Object::Answer`, markdown formatted
   #
   # <https://help.kagi.com/kagi/api/fastgpt.html#post-fastgpt>
   #

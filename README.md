@@ -103,7 +103,7 @@ $ ./bin/kagi enrich web steve jobs
 Improvements:
 - [ ] Better CLI interface / use a CLI library
 - [ ] Capture metadata from requests (potentially map latest metadata to `Kagi::Request.meta`)
-- [ ] Render and/or strip HTML from `Kagi::FastGPT.query` output
+- [x] Render and/or strip HTML from `Kagi::FastGPT.query` output
 - [ ] Validate engines / summary type / target language before executing the request
 
 ## Contributing

@@ -104,7 +104,7 @@ class Kagi::CLI
         #{answer.output.gsub(/\n/, "\n    ")}
 
     References:
-        #{answer.references.map { |r| "#{r.title.inspect} - #{r.url}" }.join("\n    ")}
+        #{answer.references.map_with_index { |r, idx| "[#{idx + 1}] #{r.title.inspect} - #{r.url}" }.join("\n    ")}
 
 
     OUTPUT
