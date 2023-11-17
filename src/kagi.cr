@@ -1,4 +1,5 @@
 require "json"
+require "xmlt"
 require "http/client"
 require "http/headers"
 
@@ -14,3 +15,4 @@ require "./kagi/search"
 require "./kagi/enrich"
 require "./kagi/fast_gpt"
 require "./kagi/summarize"
+require "./kagi/small_web"

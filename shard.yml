@@ -1,6 +1,9 @@
 name: kagi
 version: 0.1.0
 
+dependencies:
+  xmlt:
+    github: devnote-dev/xmlt
 
 development_dependencies:
   webmock:

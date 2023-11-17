@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title type="text">Kagi Small Web</title>
+    <id>https://kagi.com/api/v1/smallweb/feed</id>
+    <updated>2023-09-30T10:26:00-04:00</updated>
+    <link href="https://kagi.com/api/v1/smallweb/feed" rel="self" />
+    <generator>Werkzeug</generator>
+    <entry xml:base="https://kagi.com/api/v1/smallweb/feed">
+        <title type="text">Data Exploration with Data Viz Cheat Sheet</title>
+        <id>https://john.soban.ski/analytics-cheat-sheet.html</id>
+        <updated>2023-09-30T10:26:00-04:00</updated>
+        <published>2023-09-30T10:26:00-04:00</published>
+        <link href="https://john.soban.ski/analytics-cheat-sheet.html" />
+        <author>
+            <name>john-sobanski</name>
+        </author>
+        <content type="html">&lt;p&gt;Today I collect and organize useful data visualization (Data
+            Viz)
+            tools that aid data exploration. &lt;/p&gt;
+            &lt;p&gt;I illustrate the use of the tools via the classic
+            &lt;strong&gt;Abalone&lt;/strong&gt; database, hosted on the University of California,
+            Irvine (UCI) Machine Learning repository website.&lt;/p&gt;
+            &lt;p&gt;I recommend you bookmark this and return to it when you …&lt;/p&gt;</content>
+    </entry>
+    <entry xml:base="https://kagi.com/api/v1/smallweb/feed">
+        <title type="text">Forecast combinations: an over 50-year review</title>
+        <id>https://robjhyndman.com/publications/combinations/index.html</id>
+        <updated>2023-09-30T14:00:00+00:00</updated>
+        <published>2023-09-30T14:00:00+00:00</published>
+        <link href="https://robjhyndman.com/publications/combinations/index.html" />
+        <author>
+            <name> </name>
+        </author>
+        <content type="html">&lt;p&gt;Forecast combinations have flourished remarkably in the
+            forecasting community and, in recent years, have become part of the mainstream of
+            forecasting research and activities. Combining multiple forecasts produced from the
+            single
+            (target) series is now widely used to improve accuracy through the integration of
+            information gleaned from different sources, thereby mitigating the risk of identifying a
+            single “best” forecast. Combination schemes have evolved from simple combination methods
+            without estimation, to sophisticated methods involving time-varying weights, nonlinear
+            combinations, correlations among components, and cross-learning. They include combining
+            point forecasts, and combining probabilistic forecasts. This paper provides an
+            up-to-date
+            review of the extensive literature on forecast combinations, together with reference to
+            available open-source software implementations. We discuss the potential and limitations
+            of
+            various methods and highlight how these ideas have developed over time. Some important
+            issues concerning the utility of forecast combinations are also surveyed. Finally, we
+            conclude with current research gaps and potential insights for future
+            research.&lt;/p&gt;</content>
+    </entry>
+    <entry xml:base="https://kagi.com/api/v1/smallweb/feed">
+        <title type="text">Forecast combinations: an over 50-year review</title>
+        <id>https://robjhyndman.com/publications/combinations/index.html</id>
+        <updated>2023-09-30T14:00:00+00:00</updated>
+        <published>2023-09-30T14:00:00+00:00</published>
+        <link href="https://robjhyndman.com/publications/combinations/index.html" />
+        <author>
+            <name> </name>
+        </author>
+        <content type="html">&lt;p&gt;Forecast combinations have flourished remarkably in the
+            forecasting community and, in recent years, have become part of the mainstream of
+            forecasting research and activities. Combining multiple forecasts produced from the
+            single
+            (target) series is now widely used to improve accuracy through the integration of
+            information gleaned from different sources, thereby mitigating the risk of identifying a
+            single “best” forecast. Combination schemes have evolved from simple combination methods
+            without estimation, to sophisticated methods involving time-varying weights, nonlinear
+            combinations, correlations among components, and cross-learning. They include combining
+            point forecasts, and combining probabilistic forecasts. This paper provides an
+            up-to-date
+            review of the extensive literature on forecast combinations, together with reference to
+            available open-source software implementations. We discuss the potential and limitations
+            of
+            various methods and highlight how these ideas have developed over time. Some important
+            issues concerning the utility of forecast combinations are also surveyed. Finally, we
+            conclude with current research gaps and potential insights for future
+            research.&lt;/p&gt;</content>
+    </entry>
+    <entry xml:base="https://kagi.com/api/v1/smallweb/feed">
+        <title type="text">Dark Mode for the PET 2001 and Themed Range Sliders</title>
+        <id>https://www.masswerk.at/nowgobang/2023/pet-dark-mode-and-slider-styling</id>
+        <updated>2023-09-29T13:00:00+00:00</updated>
+        <published>2023-09-29T13:00:00+00:00</published>
+        <link href="https://www.masswerk.at/nowgobang/2023/pet-dark-mode-and-slider-styling" />
+        <author>
+            <name>Norbert Landsteiner</name>
+        </author>
+        <content type="html">Also, how to style range inputs using CSS, including accent colors.</content>
+    </entry>
+</feed>
