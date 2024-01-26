@@ -52,11 +52,11 @@ class Kagi::CLI
       exit 1
     end
 
-    results[..-1].each do |result|
+    results[..-1].each_with_index do |result, idx|
       result = result.as(Kagi::Object::Result)
 
       puts <<-RESULT
-      #{result.rank.to_s.rjust(2)}: #{result.title}
+      #{(idx + 1).to_s.rjust(2)}: #{result.title}
           #{result.url}
 
 
@@ -82,11 +82,11 @@ class Kagi::CLI
       exit 1
     end
 
-    results[...10].each do |result|
+    results[...10].each_with_index do |result, idx|
       result = result.as(Kagi::Object::Result)
 
       puts <<-RESULT
-      #{result.rank.to_s.rjust(2)}: #{result.title}
+      #{(idx + 1).to_s.rjust(2)}: #{result.title}
           #{result.url}
 
 

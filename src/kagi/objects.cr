@@ -14,9 +14,6 @@ module Kagi::Object
     # Type of result object, always "0" for `Result`
     getter type : Int32
 
-    # Search result rank, starting from 0
-    getter rank : Int32
-
     # Full URL of website
     getter url : String
 
